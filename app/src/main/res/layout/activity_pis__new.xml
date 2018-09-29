@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/tool_id"
+        layout="@layout/layout_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/route"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tool_id"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/shelter_name"
+            android:textColor="@color/text_black"
+            android:textSize="15dp" />
+
+        <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+            android:id="@+id/spinner_source"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/rect_light"
+            android:padding="10dp"
+            android:spinnerMode="dialog"
+            android:visibility="visible"
+            app:hintText="@string/select_your_stop"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btnLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/route"
+        android:layout_marginTop="3dp"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="#ACACAC" />
+
+        <TextView
+            android:id="@+id/getTiming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_selector"
+            android:padding="10dp"
+            android:text="@string/get_bus_timing"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimary" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@+id/btnLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/lin_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnLayout"
+                android:layout_margin="3dp"
+                android:background="@drawable/rectangle"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txt_stopage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="/"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="@string/towards_raipur"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TableLayout
+                    android:id="@+id/tablelayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/view_one"
+                    android:background="@color/white">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="0dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".8"
+                            android:background="@color/gray"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="@string/route_no"
+
+                            android:textColor="@color/white"
+                            android:textSize="10dip"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dip"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="1dip"
+                            android:layout_weight="1"
+                            android:background="@color/gray"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="@string/destination"
+                            android:textColor="@color/white"
+                            android:textSize="10dip"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dip"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="1dip"
+                            android:layout_weight=".8"
+                            android:background="@color/gray"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="@string/est_arrival_time"
+                            android:textColor="@color/white"
+                            android:textSize="10dip"
+                            android:textStyle="bold" />
+
+
+                        <!-- <TextView
+                            android:layout_width="0dip"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="1dip"
+                            android:layout_weight="1.2"
+
+                            android:gravity="center_vertical"
+                            android:padding="5dp"
+                            android:text="Bus Number"
+                            android:textColor="@color/white"
+                            android:textSize="12dip"
+                            android:textStyle="bold" />-->
+
+
+                    </TableRow>
+                </TableLayout>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/view_one"
+
+                    android:background="@color/primary_red">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/txt_up_route1"
+                            android:layout_width="0dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".8"
+                            android:background="#e7e7e6"
+                            android:gravity="center"
+                            android:padding="5dp"
+
+                            android:text="101"
+
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12dip"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txt_up_routename1"
+                            android:layout_width="0dip"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="1dip"
+                            android:layout_weight="1"
+                            android:background="#e7e7e6"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="Railway Station"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12dip"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txt_up_time1"
+                            android:layout_width="0dip"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="1dip"
+                            android:layout_weight=".8"
+                            android:background="#e7e7e6"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="20 Min"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12dip"
+                            android:textStyle="bold" />
+
+
+                        <!--    <TextView
+                            android:layout_width="0dip"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="1dip"
+                            android:layout_weight="1.2"
+                            android:background="#e7e7e6"
+                            android:gravity="center_vertical"
+                            android:padding="5dp"
+                            android:text="CG-04-8765"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12dip"
+                            android:textStyle="bold" />-->
+
+
+                    </TableRow>
+                </TableLayout>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/view_one"
+                    android:background="@color/primary_red">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/txt_up_route2"
+                            android:layout_width="0dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".8"
+                            android:background="#e7e7e6"
+                            android:gravity="center"
+                            android:padding="5dp"
+
+                            android:text="102"
+
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12dip"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txt_up_routename2"
+                            android:layout_width="0dip"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="1dip"
+                            android:layout_weight="1"
+                            android:background="#e7e7e6"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="Railway Station"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12dip"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txt_up_time2"
+                            android:layout_width="0dip"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="1dip"
+                            android:layout_weight=".8"
+                            android:background="#e7e7e6"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="50 Min"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12dip"
+                            android:textStyle="bold" />
+
+
+                        <!-- <TextView
+                            android:layout_width="0dip"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="1dip"
+                            android:layout_weight="1.2"
+                            android:background="#e7e7e6"
+                            android:gravity="center_vertical"
+                            android:padding="5dp"
+                            android:text="CG-03-4876"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12dip"
+                            android:textStyle="bold" />-->
+
+
+                    </TableRow>
+                </TableLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lin_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lin_one"
+                android:layout_margin="3dp"
+                android:layout_marginTop="10dp"
+                android:visibility="gone"
+                android:background="@drawable/rectangle"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <TextView
+
+                        android:id="@+id/txt_stopag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:text="/"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:gravity="center"
+                        android:text="@string/towards_hnlu"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/view_one"
+                    android:background="@color/white">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="0dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".8"
+                            android:background="@color/gray"
+                            android:gravity="center"
+                            android:padding="5dp"
+
+                            android:text="@string/route_no"
+
+                            android:textColor="@color/white"
+                            android:textSize="10dip"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dip"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="1dip"
+                            android:layout_weight="1"
+                            android:background="@color/gray"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="@string/destination"
+                            android:textColor="@color/white"
+                            android:textSize="10dip"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dip"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="1dip"
+                            android:layout_weight=".8"
+                            android:background="@color/gray"
+                            android:gravity="center_vertical"
+                            android:padding="5dp"
+                            android:text="@string/est_arrival_time"
+                            android:textColor="@color/white"
+                            android:textSize="10dip"
+                            android:textStyle="bold" />
+
+
+
+                       <!-- <TextView
+                            android:layout_width="0dip"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="1dip"
+                            android:layout_weight="1.4"
+                            android:background="#e7e7e6"
+                            android:gravity="center_vertical"
+                            android:padding="5dp"
+                            android:text="Bus Number"
+                            android:textColor="@color/primary_red"
+                            android:textSize="12dip"
+                            android:textStyle="bold" />-->
+
+
+                    </TableRow>
+                </TableLayout>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/view_one"
+
+                    android:background="@color/primary_red">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/txt_down_routeno1"
+                            android:layout_width="0dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".8"
+                            android:background="#e7e7e6"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="201"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12dip"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:id="@+id/txt_down_routename1"
+                            android:layout_width="0dip"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="1dip"
+                            android:layout_weight="1"
+                            android:background="#e7e7e6"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="@string/hnlu"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12dip"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:id="@+id/txt_down_time1"
+                            android:layout_width="0dip"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="1dip"
+                            android:layout_weight=".8"
+                            android:background="#e7e7e6"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="6 Min"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12dip"
+                            android:textStyle="bold" />
+
+
+
+
+                        <!--<TextView
+                            android:layout_width="0dip"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="1dip"
+                            android:layout_weight="1.4"
+                            android:background="#e7e7e6"
+                            android:gravity="center_vertical"
+                            android:padding="5dp"
+                            android:text="CG-04-4321"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12dip"
+                            android:textStyle="bold" />-->
+
+
+                    </TableRow>
+                </TableLayout>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/view_one"
+
+                    android:background="@color/primary_red">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/txt_down_routeno2"
+                            android:layout_width="0dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".8"
+                            android:background="#e7e7e6"
+                            android:gravity="center"
+                            android:padding="5dp"
+
+                            android:text="102"
+
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12dip"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txt_down_routename2"
+                            android:layout_width="0dip"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="1dip"
+                            android:layout_weight="1"
+                            android:background="#e7e7e6"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="@string/hnlu"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12dip"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txt_down_time2"
+                            android:layout_width="0dip"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="1dip"
+                            android:layout_weight=".8"
+                            android:background="#e7e7e6"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="36 Min"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12dip"
+                            android:textStyle="bold" />
+
+
+
+                        <!--<TextView
+                            android:layout_width="0dip"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="1dip"
+                            android:layout_weight="1.4"
+                            android:background="#e7e7e6"
+                            android:gravity="center_vertical"
+                            android:padding="5dp"
+                            android:text="CG-03-7194"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12dip"
+                            android:textStyle="bold" />-->
+
+
+                    </TableRow>
+                </TableLayout>
+
+            </LinearLayout>
+            <android.support.v7.widget.CardView
+                android:id="@+id/ln_source"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                card_view:cardElevation="5dp"
+                android:layout_margin="5dp"
+                card_view:cardCornerRadius="10dp"
+                card_view:cardMaxElevation="5dp"
+                android:visibility="gone"
+                android:layout_marginTop="10dp"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lin_two"
+                android:background="@drawable/rectangle"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/towards_raipur"
+                    android:textColor="@color/white"
+                    android:textSize="13dp"
+                    android:gravity="center"
+                    android:background="@color/gray"
+                    android:textStyle="bold" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="**Route No - 101 :"
+                        android:textColor="@color/primary_red"
+                        android:textSize="13dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text="HLNU to Raipur Railway Station"
+                        android:textColor="@color/black"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="**Route No - 102 :"
+                        android:textColor="@color/primary_red"
+                        android:textSize="13dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text="Skip North Block, Mahanadi &amp; Indravati Bhawan"
+                        android:textColor="@color/black"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="**Route No - 104 :"
+                        android:textColor="@color/primary_red"
+                        android:textSize="13dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text="Skip Mahanadi &amp; Indravati Bhawan"
+                        android:textColor="@color/black"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/ln_destination"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                card_view:cardElevation="5dp"
+                android:layout_margin="5dp"
+                card_view:cardCornerRadius="10dp"
+                card_view:cardMaxElevation="5dp"
+                android:layout_marginTop="10dp"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ln_source"
+                android:background="@drawable/rectangle"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/towards_hlnu"
+                    android:textColor="@color/white"
+                    android:textSize="13dp"
+                    android:gravity="center"
+                    android:background="@color/gray"
+                    android:textStyle="bold" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="**Route No - 201 :"
+                        android:textColor="@color/primary_red"
+                        android:textSize="13dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text="Raipur Railway Station to HLNU"
+                        android:textColor="@color/black"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="**Route No - 202 :"
+                        android:textColor="@color/primary_red"
+                        android:textSize="13dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text="Skip North Block, Mahanadi &amp; Indravati Bhawan , Jungle Safari ,Vedanta Hospital , Muktangan"
+                        android:textColor="@color/black"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="**Route No - 204 :"
+                        android:textColor="@color/primary_red"
+                        android:textSize="13dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text="Skip Mahanadi &amp; Indravati Bhawan"
+                        android:textColor="@color/black"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!--<LinearLayout
+        android:id="@+id/footer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="2dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/message"
+            android:textColor="@color/white"
+            android:textSize="12dp"
+
+            />
+
+    </LinearLayout>-->
+
+
+</RelativeLayout>

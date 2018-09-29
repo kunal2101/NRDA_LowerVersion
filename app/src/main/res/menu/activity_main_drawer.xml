@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/ic_home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@mipmap/ic_gallery"
+            android:title="@string/gallery" />
+        <item
+            android:id="@+id/nav_smart"
+            android:icon="@drawable/ic_smart_card"
+            android:title="@string/smart_card" />
+        <item
+            android:id="@+id/nav_routemap"
+            android:icon="@mipmap/ic_routemap"
+            android:title="@string/route_map" />
+        <item
+            android:id="@+id/nav_pis"
+            android:icon="@mipmap/ic_time"
+            android:title="@string/pis_between_shelter" />
+
+      <!--  <item
+            android:id="@+id/nav_support"
+            android:icon="@drawable/ic_support"
+            android:title="@string/support" />-->
+        <!--<item
+            android:id="@+id/nav_pis_route"
+            android:icon="@mipmap/ic_time"
+            android:title="@string/pis_between_route" />-->
+
+        <!--<item
+            android:id="@+id/nav_setting"
+            android:icon="@mipmap/ic_setting"
+            android:title="@string/setting" />-->
+
+       <!-- <item
+            android:id="@+id/nav_feedback"
+            android:icon="@mipmap/ic_nrda_mail_us"
+            android:title="Feedback" />
+
+        <item
+            android:id="@+id/nav_rateus"
+            android:icon="@mipmap/ic_share"
+            android:title="Share App" />
+        <item
+            android:id="@+id/nav_trmcondition"
+            android:icon="@mipmap/ic_document"
+            android:title="Terms &amp; Conditions" />
+        <item
+            android:id="@+id/nav_aboutUs"
+            android:icon="@mipmap/ic_abtus"
+            android:title="About Us" />-->
+    </group>
+
+    <!--<item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>-->
+
+</menu>

@@ -1,0 +1,71 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+   >
+
+    <include layout="@layout/layout_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tool_id"
+        />
+
+    <RelativeLayout
+        android:layout_below="@+id/tool_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        >
+
+        <RadioGroup
+            android:id="@+id/rglanguage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/tcxt"
+            android:padding="10dp"
+            >
+
+
+            <RadioButton
+                android:id="@+id/radio_language_english"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="English"
+                android:checked="true"
+                android:layout_marginTop="10dip"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/bill_back_color"
+                android:onClick="language" />
+            <RadioButton
+                android:id="@+id/radio_language_hindi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="हिंदी"
+                android:textStyle="bold"
+                android:layout_marginTop="15dip"
+                android:textSize="15dp"
+                android:textColor="@color/bill_back_color"
+                android:onClick="language"
+                />
+
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/tcxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:typeface="serif"
+            android:fontFamily="serif"
+            android:text="@string/choose_your_language"
+            android:textSize="20dip"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_margin="10dp" />
+    </RelativeLayout>
+</RelativeLayout>

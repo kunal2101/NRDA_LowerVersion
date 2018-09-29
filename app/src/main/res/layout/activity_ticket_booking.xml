@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ticket_booking"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nrda.TicketBooking">
+
+    <include layout="@layout/layout_toolbar"
+        android:id="@+id/toolBar"/>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view2"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:layout_marginTop="20dp"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardElevation="2dp"
+        card_view:cardBackgroundColor="@color/white"
+        android:layout_below="@+id/card_view1"
+        >
+        <TextView
+            android:padding="2dp"
+            android:drawableLeft="@drawable/ic_action_name"
+           android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/bill_back_color"
+            android:text="Contact Details"/>
+        </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view3"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginTop="20dp"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardElevation="2dp"
+        card_view:cardBackgroundColor="#E3F2FD"
+        android:layout_below="@+id/card_view2"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_ph"
+                android:hint="Mobile"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:drawableLeft="@mipmap/ic_action_call_dark"
+                android:background="@drawable/border"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_name"
+                android:hint="Name"
+                android:layout_margin="5dp"
+                android:textSize="14sp"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:drawableLeft="@mipmap/ic_action_person"
+                android:background="@drawable/border"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_email"
+                android:hint="Email"
+                android:padding="2dp"
+                android:textSize="14sp"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:drawableLeft="@drawable/ic_email"
+                android:background="@drawable/border"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+               android:gravity="center_vertical">
+                <TextView
+                    android:padding="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:text="Number of passenger"/>
+
+                <!--<Button
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:text="+"
+                    android:layout_marginLeft="5dp"
+                    android:onClick="increaseInteger"
+                    android:id="@+id/button" />-->
+
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:onClick="increaseInteger"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_plus"/>
+
+                <TextView
+                    android:id="@+id/integer_number"
+                    android:padding="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:text="1"/>
+                <!--<Button
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:text="-"
+                    android:layout_marginLeft="2dp"
+                    android:onClick="decreaseInteger"
+                    />-->
+
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:onClick="decreaseInteger"
+                    android:layout_width="50dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/ic_minus"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/payNow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:onClick="payNow"
+        android:background="@drawable/button_selector"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:text="Pay Now"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="5dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:layout_alignParentBottom="true"/>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardElevation="2dp"
+        card_view:cardBackgroundColor="@color/colorLightGray"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/toolBar"
+        >
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jorney Date:"
+                        android:textColor="@color/colorGray"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/from_to"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="Delhi - Bulendkhand"
+                        android:textColor="@color/colorLightGray"
+                        android:textSize="14dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:id="@+id/route_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Route No-548"
+                        android:textColor="@color/colorGray"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/from_to"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="Delhi - Bulendkhand"
+                        android:textColor="@color/colorLightGray"
+                        android:textSize="14dp" />
+                </LinearLayout>
+            </LinearLayout>-->
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dip">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Source"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:padding="2dip"
+                    android:textSize="12dip"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/txt_sorce"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:padding="2dip"
+                    android:layout_marginLeft="5dip"
+                    android:text="xxxxxx"
+                    android:textColor="@color/black"
+                    android:textSize="12dip"
+                    android:drawableLeft="@drawable/green"/>
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="2dip">
+                <TextView
+                    android:text="Destination"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:padding="2dip"
+                    android:textSize="12dip"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/txt_destination"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="2dip"
+                    android:drawablePadding="10dp"
+                    android:drawableLeft="@drawable/red"
+                    android:text="xxxxxx"
+                    android:layout_marginLeft="5dip"
+                    android:textColor="@color/black"
+                    android:textSize="12dip"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="2dip">
+                <TextView
+                    android:text="Booking Date"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:padding="2dip"
+                    android:textSize="12dip"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/txt_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="2dip"
+                    android:text="xxxxxx"
+
+                    android:layout_marginLeft="5dip"
+                    android:textColor="@color/black"
+                    android:textSize="12dip"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="2dip">
+                <TextView
+                    android:text="Base Fare"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:padding="2dip"
+                    android:textSize="12dip"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/txt_fare"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="2dip"
+                    android:text="xxxxxx"
+                    android:layout_marginLeft="5dip"
+                    android:textColor="@color/black"
+                    android:textSize="12dip"/>
+            </TableRow>
+        </TableLayout>
+    </android.support.v7.widget.CardView>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:layout_below="@+id/card_view3">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dip">
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="2dip">
+            <TextView
+                android:text="Total fare to pay:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:padding="2dip"
+                android:textSize="16dip"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txt_fares"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="2dip"
+                android:text="xxxxxx"
+                android:layout_marginLeft="5dip"
+                android:textColor="@color/black"
+                android:textSize="18dip"/>
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#347C2C</color>
+    <color name="colorPrimaryDark">#347C2C</color>
+    <color name="colorAccent">#0f99cf</color>
+
+
+    <color name="primary_red">#BF1A21</color>
+    <color name="primary">#18B086</color>
+    <color name="primary_dark">#FF2E816A</color>
+    <color name="primary_light">#C5CAE9</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="accent_color">#FF9901</color>
+    <color name="text">#32353e</color>
+    <!--<color name="primary">#e74c3c</color>-->
+    <color name="green">#008081</color>
+    <color name="resend">#e65e52</color>
+    <color name="white">#FFFFFF</color>
+    <color name="text_black">#141823</color>
+    <color name="gray">#5B5B5B</color>
+    <color name="black">#000000</color>
+
+    <color name="subtext">#a1a1a1</color>
+    <!--<color name="secondary_text">#727272</color>-->
+    <!--<color name="primary_text">#212121</color>-->
+    0f99cf
+    <color name="colorblue">#4c71f5</color>
+    <color name="bottom_black_bgcolor">#90000000</color>
+    <color name="colorGray">#495C67</color>
+    <color name="colorLightGray">#a6abae</color>
+    <color name="colorOrange">#F68159</color>
+    <color name="colorBackroundWhite">#f0f2ea</color>
+    <!-- dots inactive colors -->
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="view_line">#9f9e9e</color>
+    <color name="View_line">#EAEBED</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="bill_back_color">#111125</color>
+    <color name="app_back_color">#e1e1e1</color>
+
+    <color name="pdlg_color_white">#eeeeee</color>
+    <color name="pdlg_color_green">#388E3C</color>
+    <color name="pdlg_color_red">#d50000</color>
+    <color name="pdlg_color_blue">#1976D2</color>
+    <color name="pdlg_color_black">#212121</color>
+    <color name="pdlg_color_gray">#9E9E9E</color>
+    <color name="background">#f5f7fa</color>
+    <color name="textcolor">#4c6086</color>
+    <color name="aaa">#a7afbe</color>
+    <color name="green_card">#4F652C</color>
+    <color name="red_card">#BF452F</color>
+    <color name="blue_card">#04598C</color>
+    <color name="grey_text">#cccccc</color>
+
+</resources>

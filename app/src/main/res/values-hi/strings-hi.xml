@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">तत्पर बीआरटी बस सेवा</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="message">Rosmerta टेक्नोलॉजीज लिमिटेड द्वारा डिजाइन और विकसित</string>
+    <string name="dialog_no_internet">इंटरनेट नहीं है</string>
+    <string name="dialog_no_inter_message">आपका इंटरनेट कनेक्शन सक्रिय नहीं है</string>
+    <string name="dialog_enable_3g">3 जी सक्षम करें</string>
+    <string name="dialog_enable_wifi">वाईफ़ाई सक्षम करें</string>
+    <string name="dialog_exit">निकास</string>
+    <string name="feedback">अपनी प्रतिक्रिया दर्ज करे</string>
+    <string name="dashboard">डैशबोर्ड</string>
+    <string name="pis">यात्री सूचना प्रणाली</string>
+    <string name="routeinformation">मार्ग की सुचना</string>
+    <string name="bustiming">बस समय-सारणी</string>
+    <string name="busfarecalculation">बस किराया गणक</string>
+    <string name="livetracking">लाइव ट्रैकिंग</string>
+    <string name="neareststop">निकटतम स्टॉप</string>
+    <string name="wheretogo">कहाँ जाना है?</string>
+    <string name="search">खोजें</string>
+    <string name="routename">मार्ग का नाम:</string>
+    <string name="oops_we_don_t_have_any_detail_at_this_moment">माफ़ करे !! इस समय हमारे पास कोई विवरण नहीं है ।</string>
+    <string name="route_no">मार्ग संख्या</string>
+    <string name="stop_name">स्टॉप का नाम:</string>
+    <string name="nearest_bus_stop_from_your_place">आपके स्थान से निकटतम बस स्टॉप</string>
+    <string name="distance">दूरी</string>
+    <string name="vehicle_no">वाहन संख्या</string>
+    <string name="date">दिनांक</string>
+    <string name="speed">गति</string>
+    <string name="no_records_available">कोई रिकॉर्ड्स उपलब्ध नहीं है</string>
+    <string name="shelter_name">आश्रय का नाम</string>
+    <string name="choose_search_type">खोज प्रकार चुनें</string>
+    <string name="shelters">आश्रयों</string>
+    <string name="naya_raipur_development_authority">नई रायपुर विकास प्राधिकरण</string>
+    <string name="source">स्रोत</string>
+    <string name="destination">गंतव्य</string>
+    <string name="vehicle_number">वाहन का नंबर</string>
+    <string name="down">डाउन</string>
+    <string name="select_your_timing">अपना समय चुनें</string>
+    <string name="now_onwards">अभी से</string>
+    <string name="whole_day_time">पूरे दिन का समय</string>
+    <string name="more">और</string>
+    <string name="time">समय :</string>
+    <string name="get_bus_timing">बस समय प्राप्त करें</string>
+    <string name="select_your_stop">अपना स्टॉप चुनें</string>
+    <string name="from">आरंभ</string>
+    <string name="to">तक</string>
+    <string name="approx_fare">अनुमानित किराया</string>
+    <string name="book_ticket">टिकट आरक्षित करना</string>
+    <string name="get_fare">किराया प्राप्त करें</string>
+    <string name="search_based_on_radius">त्रिज्या के आधार पर खोजें</string>
+    <string name="your_radius">आपका त्रिज्या</string>
+    <string name="enter_radius_in_km">किलोमीटर में त्रिज्या दर्ज करें</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="location_wise_search">स्थान-अनुसार खोज</string>
+    <string name="radius_wise_search">तत्रिज्या-अनुसार खोज</string>
+    <string name="home">होम</string>
+    <string name="gallery">गैलरी</string>
+    <string name="route_map">मार्ग मानचित्र</string>
+    <string name="pis_between_shelter">बस अनुसूची</string>
+    <string name="choose_your_language">अपनी भाषा चयन करे :</string>
+    <string name="image_gallery">छवि गैलरी</string>
+    <string name="tatpar">तत्पर</string>
+    <string name="about_us">हमारे बारे में</string>
+    <string name="schedule_bus_timing">अनुसूची बस समय</string>
+    <string name="route_info">मार्ग कि जानकारी</string>
+    <string name="detail_stop_list">बसों की विस्तार सूची</string>
+    <string name="fare_estimate">किराया गणक</string>
+    <string name="nearby_stop">समीप का स्टॉप</string>
+    <string name="estimated_time">अनुमानित समय</string>
+    <string name="route_information">मार्ग की सुचना</string>
+    <string name="live_tracking">लाइव ट्रैकिंग</string>
+    <string name="pis_informtion">यात्री सुचना प्रणाली की जानकारी</string>
+    <string name="language_setting">भाषा सेटिंग</string>
+    <string name="mobile_registration">मोबाइल आरक्षण</string>
+    <string name="get_route">मार्ग खोजें</string>
+    <string name="stations">स्टेशनों</string>
+    <string name="select_start_station">शुरूआती आश्रय का चयन करें</string>
+    <string name="select_end_station">अंत आश्रय का चयन करें</string>
+    <string name="rupees">रुपये</string>
+    <string name="min">मिनट</string>
+    <string name="interchange">जंक्शन</string>
+    <string name="route_type">मार्ग के प्रकार</string>
+    <string name="tour_guide">टूर गाइड</string>
+    <string name="emer_contact">आपातकालीन संपर्क</string>
+    <string name="feedback_new">प्रतिक्रिया गतिविधि</string>
+    <string name="emergency">आपातकालीन</string>
+    <string name="mobile_no">मोबाइल नंबर</string>
+    <string name="how_would_you_rate_our_bus">आप हमारे बस को कैसे रेट करेंगे ?</string>
+    <string name="how_would_you_rate_our_shelter">आप हमारे आश्रय को कैसे रेट करेंगे ?</string>
+    <string name="how_would_you_rate_our_tatpar_brt_lite_bus_service">आप हमारे तत्पर बीआरटी बस सेवा को कैसे रेट करेंगे ?</string>
+    <string name="done">पूर्ण</string>
+    <string name="emergency_contact_detail">आपातकालीन संपर्क विवरण</string>
+    <string name="ambulance_helpline">एम्बुलेंस हेल्पलाइन</string>
+    <string name="police_helpline">पुलिस हेल्पलाइन</string>
+    <string name="fire_helpline">अग्निशमन हेल्पलाइन</string>
+    <string name="woman_helpline">महिला हेल्पलाइन</string>
+    <string name="tatper_control_center">तत्पर कंट्रोल सेंटर</string>
+    <string name="child_helpline">बाल हेल्पलाइन</string>
+    <string name="press_back">बाहर निकलने के लिए कृपया दोबारा क्लिक करें</string>
+    <string name="check_internet">कृपया अपने इंटरनेट कनेक्शन की जाँच करें</string>
+    <string name="no_record_found">कोई रिकॉर्ड नहीं मिला</string>
+    <string name="estimated_depart">अनुमानित प्रस्थान :</string>
+    <string name="estimate_arrival">अनुमानित आगमन :</string>
+    <string name="please_select_source">कृपया शुरूआती आश्रय का चयन करें</string>
+    <string name="please_select_destination">कृपया अंत आश्रय का चयन करें</string>
+    <string name="source_destination_same">सशुरूआती आश्रय और अंत आश्रय समान नहीं होना चाहिए</string>
+    <string name="select_destination">अंत आश्रय का चयन करें</string>
+    <string name="select_source">सशुरूआती आश्रय का चयन करें</string>
+    <string name="no_fare_available">इस मार्ग के लिए कोई किराया उपलब्ध नहीं है</string>
+    <string name="google_service_available">गूगल सेवा उपलब्ध है !!</string>
+    <string name="near_stop_from_your_location">आपके स्थान से निकटतम बस स्टॉप</string>
+    <string name="my_location">मेरा स्थान</string>
+    <string name="no_record">कोई रिकॉर्ड नहीं ।</string>
+    <string name="gps_enable_msg">स्थान नहीं मिल सका। सुनिश्चित करें कि डिवाइस पर स्थान / जीपीएस सक्षम है</string>
+    <string name="wating_address">पते की प्रतीक्षा कर रहा है</string>
+    <string name="sorry_we_dont_serve_location">क्षमा करें, हम अभी तक इस स्थान की सेवा नहीं करते हैं।</string>
+    <string name="select_radius">त्रिज्या का चयन करें</string>
+    <string name="select_route_name">मार्ग का नाम चुनें</string>
+    <string name="select_bus_stop">बस स्टॉप का चयन करें</string>
+    <string name="km">किमी</string>
+    <string name="down_route_bus">डाउन बस मार्ग</string>
+    <string name="up_route_bus">ऊपर बस मार्ग</string>
+    <string name="towards_raipur">रायपुर की ओर **</string>
+    <string name="est_arrival_time">अनुमानित आगमन का समय</string>
+    <string name="towards_hnlu">एचएलएनयू  की ओर **</string>
+    <string name="hnlu">एचएलएनयू</string>
+    <string name="towards_hlnu">एचएलएनयू  की ओर</string>
+    <string name="distance_radius_in_km">दूरी त्रिज्या (किलोमीटर में)</string>
+    <string name="nrda_tour_amp_guide">एनआरडीए टूर एंड गाइड</string>
+    <string name="nrda_tourism_category">एनआरडीए पर्यटन श्रेणी</string>
+    <string name="jungle_safari">कुल क्षेत्रफल 803 एकड़ (सेक्टर- 39) एशिया का सबसे बड़ा मानव निर्मित जंगल सफारी</string>
+    <string name="jungle_safari_title">जंगल सफारी</string>
+    <string name="immersive_dome_title">इमर्सिव डोम</string>
+    <string name="immersiv_dome">सेक्टर – 20 नार्थ सेंट्रल पार्क में स्थित है</string>
+    <string name="jungle_safari_details">जंगल सफारी विवरण</string>
+    <string name="jungle_safari_description">कुल क्षेत्रफल 803 एकड़ (सेक्टर- 39) एशिया का सबसे बड़ा मानव निर्मित जंगल सफारी | भालू, हिरण, शेर, बाघ को बाड़ो में रखा गया है | 18 हे. जलीय श्रेत्र में नौका विहार एवं जलीय पक्षी होंगे |\n\n
+समय: \t      प्रातः 10:00 से साय: 5:00 बजे तक (सोमवार बंद)\n
+शुल्क:     \t  वयस्क – 200/ - रु. (नॉन एसी बस से), 300/ - रु. (एसी बस से)
+	     अवयस्क (6 से 12 वर्ष) – 50/ - रु. (नॉन एसी बस से), 100/ - रु. (एसी बस से)
+6 वर्ष से कम उम्र वाले बच्चों (भारतीय) को प्रवेश नि:शुल्क | बुकिंग प्रातः 9 से शुरू |</string>
+    <string name="what_to_see">क्या देखें</string>
+    <string name="best_places_to_visit_in_raipur">नया रायपुर में जाने के लिए सबसे अच्छे स्थान</string>
+
+    <string name="about_uss"><![CDATA[
+     <html><body style="text-align:justify">
+     <h3>हमारे बारे में</h3>
+     <p>तत्पर बीआरटी बस सेवा, जिसे नया <b>रायपुर – रायपुर बीआरटीएस</b> भी कहा जाता है| यह बस रैपिड ट्रांजिट नया रायपुर विकास प्राधिकरण, नया रायपुर छत्तीसगढ़ द्वारा संचालित की जाती है |</p>
+
+    <p>यह सुविधा 1 नवंबर, 2016 को भारत के <b>माननीय प्रधान मंत्री श्री नरेंद्र दामोदरदास मोदी</b> के कर-कमलो द्वारा उद्घाटन किया गया है, इसका नेटवर्क विस्तार 40 किमी (25 मील) का है | यहाँ 3000-4000 यात्रियों की दैनिक आवागमन होता है |</p>
+
+    <p>- हर आधे घंटे में <b>रायपुर और नया रायपुर</b> के बीच, मेट्रो की तर्ज पर, इंटेलीजेंट ट्रांसपोर्ट सिस्टम से संचालित सामान्य दर पर ए.सी. बस की सुविधा</p>
+
+    <p>- बस के भीतर तथा बस स्टॉप में – सीसीटीवी कैमरा, जीपीएस, आरएफआईडी युक्त आटोमेटिक डोर ओपनिंग, पैसेंजर इनफार्मेशन सिस्टम, इलेक्ट्रॉनिक टिकटिंग मशीन से टिकट</p>
+
+    <p>- लेवल बोर्डिंग, व्हील चेयर हेतु विशेष व्यवस्था व अत्त्याधुनिक सुविधायुक्त बस डिपो तथा वर्कशॉप |</p>
+
+     </body></Html>
+    ]]></string>
+
+    <string name="immersive_dome">इमर्सिव डोम</string>
+    <string name="immersive_dome_details">इमर्सिव डोम विवरण</string>
+
+    <string name="immersive_dome_detail"> 5 प्रोजेक्टर की सहायता से डोम में शिक्षाप्रद तथा मनोरंजक फिल्मो का प्रदर्शन बहुत ही न्युन्तम शुल्क में किया जाता है, जर्मन तकनीक से बने डोम में 150 दर्शक के बैठने कि व्यवस्था है | सेक्टर – 20 नार्थ सेंट्रल पार्क में स्थित है | वर्त्तमान में प्रदर्षित फिल्मे:\n\n
+
+गोपाला    डायनो प्लेनेट\n\n
+
+शो का समय : सोमवार – शुक्रवार साय: 6 एवं 7 बजे
+             शनिवार – रविवार साय: 5, 6, 7 एवं 8 \n\n
+
+शुल्क       : 10/ - रु. प्रति शो</string>
+
+    <string name="cricket_stadium">क्रिकेट स्टेडियम</string>
+    <string name="situated_at_sector_3_nearby_national_highway_53">सेक्टर-3 राष्ट्रीय राजमार्ग- 53 के समीप, 21.71 हे</string>
+
+    <string name="musical_dancing_fountain">म्यूजिकल डांसिंग फाउंटेन</string>
+    <string name="rajdhani_sarovar_located_at_sector_19_naya_raipur_is_showcasing_country_s_highest_class_multimedia">नया रायपुर के सेक्टर 19 में स्थित राजधानी सरोवर में देश के अधिकतम श्रेणी का म्यूजिकल फाउंटेन</string>
+    <string name="shaheed_veer_narayan_singh_cricket_stadium"> शहीद वीर नारायण सिंह इंटरनेशनल क्रिकेट स्टेडियम</string>
+    <string name="shaheed_veer_narayan_singh_cricket_stadium_detail"> शहीद वीर नारायण सिंह इंटरनेशनल क्रिकेट स्टेडियम विवरण</string>
+    <string name="stadium_detail">सेक्टर-3 राष्ट्रीय राजमार्ग- 53 के समीप, 21.71 हे., 55,000 दर्शक क्षमता, 101 सीसीटीवी कैमेरो से निगरानी | अब तक आईपीएल, आईसीएल समेत अन्य स्तरीय मैचों का आयोजन |</string>
+    <string name="musical_dancing_fountain_multimedia_laser_video_show">म्यूजिकल डांसिंग फाउंटेन, मल्टीमीडिया लेज़र एवं विडियो शो</string>
+    <string name="music_fontain_detail">नया रायपुर के सेक्टर 19 में स्थित राजधानी सरोवर में देश के अधिकतम श्रेणी का म्यूजिकल फाउंटेन, 30-30 मिनट के मल्टीमीडिया/ म्यूजिकल फाउंटेन शो व लगभग 400 दर्शकों के लिए अधुनितम दर्शक गैलरी |</string>
+
+    <string name="other_sendlake">सेंध जलाशय</string>
+    <string name="other_sendlake_detail">साहसिक खेलो एवं गतिविधियों का आनंद यहाँ लिए जा सकता है | सेंध जलाशय (सेक्टर 4) में सोलर बोट, कयाकिंग, स्टील वाटर राफ्टिंग, वाल क्लाइम्बिंग, बर्मा ब्रिज, पैरासेलिंग, ऑल-टेरेन व्हीकल (ए.टी.व्ही) सवारी, जीपलाइन और पेडल बोट कि व्यवस्था है |</string>
+    <string name="other_sendlake_long_detail">साहसिक खेलो एवं गतिविधियों का आनंद यहाँ लिए जा सकता है | सेंध जलाशय (सेक्टर 4) में सोलर बोट, कयाकिंग, स्टील वाटर राफ्टिंग, वाल क्लाइम्बिंग, बर्मा ब्रिज, पैरासेलिंग, ऑल-टेरेन व्हीकल (ए.टी.व्ही) सवारी, जीपलाइन और पेडल बोट कि व्यवस्था है |
+
+\n\nसमय:  प्रातः 8 से सायं 6 बजे तक (6 वर्ष एवं उससे अधिक के लिए)\n\n
+शुल्क:   400/ - रु. सभी एक्टिविटी के लिए (पैरासेलिंग को छोड़कर)</string>
+
+    <string name="cafateria_food_court">कैफेटेरिया / खाद्य न्यायालय</string>
+    <string name="famous_food_in_raipur">नया रायपुर में प्रसिद्ध भोजन</string>
+    <string name="market_shopping">बाजार / खरीदारी</string>
+    <string name="traditional_market_in_raipur">नया रायपुर में पारंपरिक बाजार</string>
+    <string name="entertenment_zone">एंटरटेनमेंट जोन</string>
+    <string name="about_culture_and_festivals_in_raipur">नया रायपुर में संस्कृति और त्यौहारों के बारे में</string>
+    <string name="other">अन्य</string>
+    <string name="best_other_place_in_raipur">नया रायपुर में सबसे अच्छी जगह</string>
+    <string name="purakhauti_muktangan">पुरखौती मुक्तांगन</string>
+    <string name="pukt_jng">167 एकड़ (सेक्टर-24, छत्तीसगढ़ की कला, संस्कृति आभूषणों, लोक नृत्य, वाद्य यंत्र एवं महान हस्तियों की मूर्तियों के माध्यम से प्रदर्शित किया गया है</string>
+    <string name="pukt_jung_detail">67 एकड़ (सेक्टर-24, छत्तीसगढ़ की कला, संस्कृति आभूषणों, लोक नृत्य, वाद्य यंत्र एवं महान हस्तियों की मूर्तियों के माध्यम से प्रदर्शित किया गया है) जनजातिय संग्रहालय अभिलेखागार (प्रस्तावित)|
+
+\n\nसमय:  प्रातः 7 से सांय 6 बजे तक\n\n
+शुल्क:   2/ - रु. 12 वर्ष तक के लिए तथा 5/ - रु. 12 वर्ष के अधिक के लिए\n
+	 5/ - रु. शैक्षणिक सामूहिक भ्रमण हेतु (25 या बराबर सदस्य)</string>
+    <string name="aranyam_dhaba_sector_24">अरण्यम ढाबा (सेक्टर 24)</string>
+    <string name="food_kiosk_sector_40">फ़ूड कीओस्क (सेक्टर 40)</string>
+    <string name="the_village_caf">द विलेज कैफे</string>
+    <string name="the_village_caf_central_park_sector_24">द विलेज कैफे (सेन्ट्रल पार्क, सेक्टर 24)</string>
+    <string name="restro_c_g_04">सी.जी. जीरो फोर</string>
+    <string name="restro_c_g_04_rajdhani_sarovar_sector_19">सी.जी. जीरो फोर (राजधानी सरोवर, सेक्टर 19)</string>
+    <string name="food_points_ekatm_path">फूड पॉइंट्स (एकात्म पथ)</string>
+    <string name="no_info">कोई जानकारी उपलब्ध नहीं है</string>
+
+
+
+    <string name="market_tour_name">सेंध झील</string>
+    <string name="marketr_tour_short">
+साहसिक खेलों और गतिविधियों का आनंद लिया जा सकता है। सेंध झील (सेक्टर 4 में स्थित) में सौर नाव, कयाकिंग, स्टिल वाटर राफ्टिंग जैसी सुविधाएं हैं।</string>
+    <string name="market_tour_detail">साहसिक खेलों और गतिविधियों का आनंद लिया जा सकता है। सेंध झील (सेक्टर 4 में स्थित) में सौर नाव, कयाकिंग, स्टिल वाटर राफ्टिंग, वॉल क्लाइंबिंग, बर्मा ब्रिज, पैरासेलिंग, ऑल टेरेन वाहन (एटीवी), जीप लाइन और पेडल बोट सिस्टम जैसी सुविधाएं हैं।
+
+समय: 8 पूर्वाह्न से शाम 6 बजे (6 साल और ऊपर के लिए)
+
+किराया: 400 / - सभी गतिविधियों के लिए (पैरासेलिंग को छोड़कर)</string>
+
+
+    <string name="towards_hlnu_down">एचएलएनयू  की ओर (डाउन)</string>
+    <string name="towards_raipur_up">रायपुर की ओर (ऊपर)</string>
+
+    <string name="verify">ओटीपी की पुष्टि</string>
+    <string name="sent">हमने आपके नंबर पर एक ओटीपी भेजा है</string>
+    <string name="resend">ओटीपी पुनः भेजें?</string>
+    <string name="need">हमें आपको ओटीपी लिखने की जरूरत है</string>
+    <string name="auth">अपने क्रेडेंशियल को प्रमाणित करें</string>
+    <string name="phone">आपका मोबाइल नंबर</string>
+    <string name="number">+91-4445556987</string>
+    <string name="ok">ठीक</string>
+
+
+    <string name="code">शुरू करने के लिए पुष्टिकरण कोड।</string>
+    <string name="awsm">धन्यवाद! </string>
+
+    <string name="soon">आप इसे जल्द ही प्राप्त करेंगे।</string>
+    <string name="why">क्यूं</string>
+
+    <string name="ind">+91</string>
+    <string name="add_smart_card">स्मार्ट कार्ड जोड़ें</string>
+    <string name="view_smart_card">स्मार्ट कार्ड देखें</string>
+    <string name="check_smart_card_vaidity">स्मार्ट कार्ड वैधता की जांच करें</string>
+    <string name="enter_code">कोड दर्ज करें</string>
+    <string name="otp_verify">ओटीपी सत्यापित करें</string>
+    <string name="mobile_verify">मोबाइल सत्यापित करें</string>
+    <string name="oops">ओओपीएस!</string>
+    <string name="no_record_founds">कोई रिकॉर्ड नहीं मिला</string>
+
+</resources>

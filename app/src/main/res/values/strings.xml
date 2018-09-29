@@ -1,0 +1,251 @@
+<resources>
+    <string name="app_name">Tatpar BRT Bus Service</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="message">Designed &amp; Developed By Rosmerta Technologies Ltd.</string>
+    <string name="dialog_no_internet">No Internet</string>
+    <string name="dialog_no_inter_message">You have not active internet connection.</string>
+    <string name="dialog_enable_3g">Enable 3G</string>
+    <string name="dialog_enable_wifi">Enable WIFI</string>
+    <string name="dialog_exit">Exit</string>
+    <string name="feedback">Enter Your Feedback</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="pis">Real Time PIS</string>
+    <string name="routeinformation">Route Information</string>
+    <string name="bustiming">Bus Timing</string>
+    <string name="busfarecalculation">Bus Fare Calculator</string>
+    <string name="livetracking">Live Tracking</string>
+    <string name="neareststop">Nearest Stop</string>
+    <string name="wheretogo">Where to Go?</string>
+    <string name="search">Search</string>
+    <string name="routename">Route Name :</string>
+    <string name="oops_we_don_t_have_any_detail_at_this_moment">Oops !! we don\'t have any detail at this moment.</string>
+    <string name="route_no">Route No.</string>
+    <string name="stop_name">Stop Name:</string>
+    <string name="nearest_bus_stop_from_your_place">Nearest bus stop from your place</string>
+    <string name="distance">Distance</string>
+    <string name="vehicle_no">Vehicle No.</string>
+    <string name="date">Date</string>
+    <string name="speed">Speed</string>
+    <string name="no_records_available">No Records Available</string>
+    <string name="shelter_name">Shelter Name</string>
+    <string name="choose_search_type">Choose search type</string>
+    <string name="shelters">Shelters</string>
+    <string name="naya_raipur_development_authority">Naya Raipur Development Authority</string>
+    <string name="source">Source</string>
+    <string name="destination">Destination</string>
+    <string name="vehicle_number">Vehicle number</string>
+    <string name="down">Down</string>
+    <string name="select_your_timing">Select Your Timing</string>
+    <string name="now_onwards">Now Onwards</string>
+    <string name="whole_day_time">Whole Day Time</string>
+    <string name="more">MORE</string>
+    <string name="time">Time :</string>
+    <string name="get_bus_timing">Get Bus Timing</string>
+    <string name="select_your_stop">Select Your Stop</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="approx_fare">Estimated Fare</string>
+    <string name="book_ticket">Book Ticket</string>
+    <string name="get_fare">Get Fare</string>
+    <string name="search_based_on_radius">Search based on radius</string>
+    <string name="your_radius">Your radius</string>
+    <string name="enter_radius_in_km">Enter radius in Km.</string>
+    <string name="cancel">Cancel</string>
+    <string name="location_wise_search">Location wise Search</string>
+    <string name="radius_wise_search">Radius wise Search</string>
+    <string name="home">Home</string>
+    <string name="gallery">Gallery</string>
+
+    <string name="route_map">Route Map</string>
+    <string name="pis_between_shelter">Bus Schedule</string>
+    <string name="choose_your_language">Choose your language :</string>
+    <string name="image_gallery">Image Gallery</string>
+    <string name="smart_card">Smart Card</string>
+    <string name="smart_card_detail">Smart Card Detail</string>
+    <string name="smart_card_search">Smart Card Search</string>
+    <string name="smart_card_otp">OTP</string>
+    <string name="smart_card_view">All Smart Card</string>
+    <string name="tatpar">TATPAR</string>
+    <string name="about_us">About Us</string>
+    <string name="schedule_bus_timing">Schedule Bus Timing</string>
+    <string name="route_info">Route Info</string>
+    <string name="detail_stop_list">Detail Stop List</string>
+    <string name="fare_estimate">Fare Calculator</string>
+    <string name="nearby_stop">Nearby Stop</string>
+    <string name="estimated_time">Estimated Time</string>
+    <string name="route_information">Route Information</string>
+    <string name="live_tracking">Live Tracking</string>
+    <string name="pis_informtion">PIS Information</string>
+    <string name="language_setting">Language Settings</string>
+    <string name="mobile_registration">Mobile Reservation</string>
+    <string name="get_route">Find Route</string>
+    <string name="stations">Stations</string>
+    <string name="select_start_station">Select Start Station</string>
+    <string name="select_end_station">Select End Station</string>
+    <string name="rupees">Rupees</string>
+    <string name="min">Min</string>
+    <string name="interchange">Interchange</string>
+    <string name="route_type">Route Type</string>
+    <string name="emer_contact">Emergency Conatct</string>
+    <string name="tour_guide">Tour Guide</string>
+    <string name="feedback_new">Feedback</string>
+    <string name="title_activity_feedback">FeedbackActivity</string>
+    <string name="emergency">Emergency</string>
+    <string name="mobile_no">Mobile No .</string>
+    <string name="how_would_you_rate_our_bus">How would you rate our BUS ?</string>
+    <string name="how_would_you_rate_our_shelter">How would you rate our shelter ?</string>
+    <string name="how_would_you_rate_our_tatpar_brt_lite_bus_service">How would you rate our Tatpar BRT-Lite-Bus Service ?</string>
+    <string name="done">DONE</string>
+    <string name="emergency_contact_detail">Emergency Contact Detail</string>
+    <string name="ambulance_helpline">AMBULANCE HELPLINE</string>
+    <string name="police_helpline">POLICE HELPLINE</string>
+    <string name="fire_helpline">FIRE HELPLINE</string>
+    <string name="woman_helpline">WOMAN HELPLINE</string>
+    <string name="tatper_control_center">TATPER CONTROL CENTER</string>
+    <string name="child_helpline">CHILD HELPLINE</string>
+    <string name="press_back">Please click Back again to exit</string>
+    <string name="check_internet">Please check your internet connection</string>
+    <string name="no_record_found">No records found</string>
+    <string name="estimated_depart">Estimated depart in :</string>
+    <string name="estimate_arrival">Estimated arriving in :</string>
+    <string name="please_select_source">Please Select source</string>
+    <string name="please_select_destination">Please Select Destination</string>
+    <string name="source_destination_same">Source Stop and Destination Stop should not be same</string>
+    <string name="select_destination">Select Destination</string>
+    <string name="select_source">Select Source</string>
+    <string name="no_fare_available">No Fare Available for this Route</string>
+    <string name="google_service_available">Google Service Is Available!!</string>
+    <string name="near_stop_from_your_location">Nearest bus stop from your place</string>
+    <string name="my_location">My location</string>
+    <string name="no_record">no record.</string>
+    <string name="gps_enable_msg">Couldn\'t get the location. Make sure location/GPS is enabled on the device</string>
+    <string name="wating_address">Waiting for Address</string>
+    <string name="sorry_we_dont_serve_location">Sorry, we don\'t serve this location yet.</string>
+    <string name="select_radius">Select the radius</string>
+    <string name="select_route_name">Select Route Name</string>
+    <string name="select_bus_stop">Select Bus Stop</string>
+    <string name="km">KM</string>
+    <string name="down_route_bus">Down Route Bus</string>
+    <string name="up_route_bus">Up Route Bus</string>
+    <string name="towards_raipur">Towards Raipur**</string>
+    <string name="est_arrival_time">Est. Arrival Time</string>
+    <string name="towards_hnlu">Towards HLNU**</string>
+    <string name="hnlu">HLNU</string>
+    <string name="towards_hlnu">Towards HLNU</string>
+    <string name="distance_radius_in_km">Distance Radius (in Km)</string>
+    <string name="nrda_tour_amp_guide">NRDA Tour &amp; Guide</string>
+    <string name="nrda_tourism_category">NRDA Tourism Category</string>
+    <string name="jungle_safari">Asia’s Largest Man-Made Jungle Safari expands in total area of 803 Acres at Sector-39, Naya Raipur</string>
+    <string name="jungle_safari_title">Jungle Safari</string>
+    <string name="immersive_dome_title">Immersive Dome</string>
+    <string name="immersiv_dome">This dome is situated at North Centre Park, Sector-20, Naya Raipur.</string>
+    <string name="jungle_safari_details">Jungle Safari Details</string>
+    <string name="jungle_safari_description">Asia’s Largest Man-Made Jungle Safari expands in total area of 803 Acres at Sector-39, Naya Raipur where Bear, Deer, Lion, Tiger are kept in the barrow. In 18 Hectares, there will be facility of boating and aquatic bird watching.\n\n Timing : \t10:00 AM to 05:00 PM (Monday Closed)\n
+Fare: 	 \t Adult- Rs. 200/- (Non-AC Bus), \tRs. 300/- (AC Bus)
+	 \tChildren (6 to 12 Years)- Rs. 50/- (Non-AC Bus),\t Rs. 100 (AC Bus)\t
+Free Entry for Children below age of 6 Years (Indian) Booking start from 09:00 AM</string>
+    <string name="what_to_see">What To See</string>
+    <string name="best_places_to_visit_in_raipur">Best Places to Visit in Naya Raipur</string>
+
+    <string name="about_uss"><![CDATA[
+     <html><body style="text-align:justify">
+     <h3>About Us</h3>
+     <p>Tatpar-BRT Bus Seva, also known as <b>Naya Raipur-Raipur BRTS</b>, is Bus Rapid Transit operated by Naya Raipur Development Authority, Naya Raipur Chhattisgarh.</p>
+
+    <p>Inaugurated by <b>Honourable Prime Minister of India Shri Narendra Damodardas Modi on November 01, 2016</b>. It got network expansion of 40 Kms (25 Miles), having daily ridership of 3000 - 4000 Commuters.</p>
+
+    <p>- In Every Half an Hour, BRT Buses are available between <b>Raipur and New Raipur</b>, runs on the concept of Metro, Operated by Intelligent Transport System, A.C Bus Facility available at nominal rate.</p>
+
+    <p>- All BRT Buses & Bus Shelters having facilities of CCTV Cameras Surveillance, GPS, RFID Automatic Door opening, Passenger Information System, Issue of ticket by Electronic Ticketing Machine.</p>
+
+    <p>- Level boarding, Special Arrangements for Wheel Chair and Advanced State-of-the-art Bus Depot and Workshop for maintenance of Buses.</p>
+
+     </body></Html>
+    ]]></string>
+
+    <string name="immersive_dome">Immersive Dome</string>
+    <string name="immersive_dome_details">Immersive Dome Details</string>
+    <string name="immersive_dome_detail">With the help of 5 Projectors, educative and entertaining movies are shown at most minimal fare. German Technology based Dome is having seating capacity of 150 Spectators. This dome is situated at North Centre Park, Sector-20, Naya Raipur. Presently showcase Movies running at Dome are: \n\nGOPALA DAINO PLANET \n\nTiming of Show: \n\nMonday to Friday 06:00 PM &amp; 07:00 PM Saturday &amp; Sunday 05:00 PM, 06:00 PM, 07:00 PM &amp; 08:00 PM. \n\nFare: \tRs. 10/- per show.</string>
+    <string name="cricket_stadium">Cricket Stadium</string>
+    <string name="situated_at_sector_3_nearby_national_highway_53">Situated at Sector-3, nearby National Highway-53</string>
+    <string name="musical_dancing_fountain">Musical Dancing Fountain</string>
+    <string name="rajdhani_sarovar_located_at_sector_19_naya_raipur_is_showcasing_country_s_highest_class_multimedia">Rajdhani Sarovar, located at Sector-19, Naya Raipur is showcasing country’s highest class multimedia</string>
+    <string name="shaheed_veer_narayan_singh_cricket_stadium">Shaheed Veer Narayan Singh Cricket Stadium</string>
+    <string name="shaheed_veer_narayan_singh_cricket_stadium_detail">Shaheed Veer Narayan Singh Cricket Stadium Detail</string>
+    <string name="stadium_detail">Situated at Sector-3, nearby National Highway-53, established in 21.71 Hectare, having spectators capacity of 55,000, under surveillance of 101 CCTV Cameras. Already matches such as IPL, ICL as well as other levels were organised.</string>
+    <string name="musical_dancing_fountain_multimedia_laser_video_show">Musical Dancing Fountain, Multimedia Laser &amp; Video Show</string>
+    <string name="music_fontain_detail">Rajdhani Sarovar, located at Sector-19, Naya Raipur is showcasing country’s highest class multimedia/ musical fountain within interval of 30-30 Minutes. It is having leading viewer gallery for around 400 visitors</string>
+    <string name="other_sendlake">Sendh Lake</string>
+    <string name="other_sendlake_detail">Adventure Games and Activities can be enjoyed here. Sendh Lake (situated at Sector 4) has facilities such as Solar Boats, Kayaking, Still Water Rafting.</string>
+    <string name="other_sendlake_long_detail">Adventure Games and Activities can be enjoyed here. Sendh Lake (situated at Sector 4) has facilities such as Solar Boats, Kayaking, Still Water Rafting, Wall Climbing, Burma Bridge, Parasailing, All Terrain Vehicle (ATV), Jeep-line and Pedal Boat System.
+
+\n\nTiming:          8 AM to 6 PM (for 6 years and above)\n\n
+Fare:      Rs 400 / - For all activities (excluding Parasailing)</string>
+
+    <string name="market_tour_name">Sendh Lake</string>
+    <string name="marketr_tour_short">Adventure Games and Activities can be enjoyed here. Sendh Lake (situated at Sector 4) has facilities such as Solar Boats, Kayaking, Still Water Rafting.</string>
+    <string name="market_tour_detail">Adventure Games and Activities can be enjoyed here. Sendh Lake (situated at Sector 4) has facilities such as Solar Boats, Kayaking, Still Water Rafting, Wall Climbing, Burma Bridge, Parasailing, All Terrain Vehicle (ATV), Jeep-line and Pedal Boat System.
+
+Timing:          8 AM to 6 PM (for 6 years and above)
+Fare:      Rs 400 / - For all activities (excluding Parasailing)</string>
+
+
+    <string name="cafateria_food_court">Cafateria/Food Court</string>
+    <string name="famous_food_in_raipur">Famous Food in Naya Raipur</string>
+    <string name="market_shopping">Market/Shopping</string>
+    <string name="traditional_market_in_raipur">Traditional Market in Naya Raipur</string>
+    <string name="entertenment_zone">Entertenment Zone</string>
+    <string name="about_culture_and_festivals_in_raipur">About culture and festivals in Naya Raipur</string>
+    <string name="other">Other</string>
+    <string name="best_other_place_in_raipur">Best Other place in Naya Raipur</string>
+    <string name="purakhauti_muktangan">Purakhauti Muktangan</string>
+    <string name="pukt_jng">167 acres (Sector-24, Chhattisgarh\'s Art, Cultural Ornaments, Folk Dances, Musical Instruments and Statues of Great Celebrities have been exhibited).</string>
+    <string name="pukt_jung_detail">167 acres (Sector-24, Chhattisgarh\'s Art, Cultural Ornaments, Folk Dances, Musical Instruments and Statues of Great Celebrities have been exhibited). Proposed Tribal Museum Archives.\n\n Timing: 07:00 AM to 06:00 PM \n\nFare: Rs. 2/- for 12 Years of age &amp; \nRs. 5/- for more than 12 Years of age Rs. 5/- for Educational Group Trips (25 or equal members)</string>
+    <string name="aranyam_dhaba_sector_24">Aranyam Dhaba (Sector-24)</string>
+    <string name="food_kiosk_sector_40">Food Kiosk (Sector 40)</string>
+    <string name="the_village_caf">The Village Café</string>
+    <string name="the_village_caf_central_park_sector_24">The Village Café (Central Park, Sector 24)</string>
+    <string name="restro_c_g_04">Restro C G 04</string>
+    <string name="restro_c_g_04_rajdhani_sarovar_sector_19">Restro C G 04 (Rajdhani Sarovar Sector 19)</string>
+    <string name="food_points_ekatm_path">Food Points (Ekatm Path)</string>
+    <string name="no_info">No Information available</string>
+    <string name="towards_hlnu_down">Towards HLNU (Down)</string>
+    <string name="towards_raipur_up">Towards Raipur (Up)</string>
+
+
+    <string name="verify">Verifying OTP</string>
+    <string name="sent">We have sent an OTP on your number</string>
+    <string name="resend">Resend OTP?</string>
+    <string name="need">We need to text you the OTP to</string>
+    <string name="auth">authenticate your account</string>
+    <string name="phone">Your mobile number</string>
+    <string name="number">+91-4445556987</string>
+    <string name="ok">OK</string>
+
+    <string name="def">DEF</string>
+    <string name="ghi">GHI</string>
+    <string name="jkl">JKL</string>
+    <string name="mno">MNO</string>
+    <string name="pqrs">PQRS</string>
+    <string name="tuv">TUV</string>
+    <string name="wxyz">WXYZ</string>
+
+    <string name="code">confirmation code to get started.</string>
+    <string name="awsm">Thanks! </string>
+
+    <string name="soon">You will get it soon.</string>
+    <string name="why">why?</string>
+
+    <string name="ind">+91</string>
+    <string name="add_smart_card">ADD SMART CARD</string>
+    <string name="view_smart_card">VIEW SMART CARD</string>
+    <string name="check_smart_card_vaidity">CHECK SMART CARD VALIDITY</string>
+    <string name="enter_code">Enter code</string>
+    <string name="otp_verify">OTP Verify</string>
+    <string name="mobile_verify">Mobile Verify</string>
+    <string name="oops">OOPS !</string>
+    <string name="no_record_founds">No record found</string>
+
+</resources>
+

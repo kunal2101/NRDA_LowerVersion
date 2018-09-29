@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/tool_id"
+            layout="@layout/layout_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/View_line"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Your Mobile Numebr"
+            android:textSize="23.3sp"
+            android:layout_marginLeft="27.7dp"
+            android:layout_marginTop="29dp"
+            android:textColor="@color/black"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:gravity="center">
+
+
+            <EditText
+                android:id="@+id/mob_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="mobiel Number"
+                android:layout_weight="1"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="0dp"
+
+                android:inputType="number"
+                android:background="@color/transparent"
+                android:textSize="13sp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="52.3dp"
+                android:src="@drawable/mobile"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/red_card"
+            android:layout_marginTop="11dp"
+            android:layout_marginLeft="27.8dp"
+            android:layout_marginRight="43.8dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11.5sp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="21.2dp"
+            android:text="Your mobile number will be linked with \n NRDA BUS SERVICE" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:src="@drawable/next"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="22.2dp" />
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    >
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_titleMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/pdlg_color_blue"
+        android:text="Simple Title/Message"
+        android:typeface="serif"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/pdlg_color_white"
+        android:textAllCaps="false"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_okCancel"
+        android:layout_width="match_parent"
+        android:layout_marginTop="1dp"
+        android:layout_height="wrap_content"
+        android:text="OK/Cancel Dialog"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/pdlg_color_white"
+        android:background="@color/pdlg_color_red"
+        android:textAllCaps="false"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_allCustom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="@color/pdlg_color_green"
+        android:textColor="@color/pdlg_color_white"
+        android:text="All Custom"
+        android:textAllCaps="false"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout
+        android:layout_width="220dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/custom_info_bubble">
+
+       <!-- <Button
+            android:id="@+id/btnClose"
+            android:layout_width="25dip"
+            android:layout_height="25dip"
+            android:background="@drawable/btn_closed"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"/>-->
+        <RelativeLayout
+            android:id="@+id/topLay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dip"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="2dip">
+
+
+                <RelativeLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:id="@+id/lb_rtno"
+                                android:text="@string/route_no"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/accent_color"
+                                android:textSize="10sp"
+                                android:textStyle="bold"
+                                />
+
+                            <TextView
+                                android:id="@+id/txt_routeno"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_marginLeft="2dip"
+                                android:text="xxxxxx"
+                                android:textColor="@color/bill_back_color"
+                                android:textSize="10sp"
+                                android:textStyle="bold"/>
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_marginTop="3dip">
+                            <TextView
+                                android:id="@+id/lb_vno"
+                                android:text="@string/vehicle_no"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/accent_color"
+                                android:textSize="10sp"
+                                android:textStyle="bold"
+                                />
+
+                            <TextView
+                                android:id="@+id/txt_vno"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="xxxxxx"
+                                android:layout_marginLeft="2dip"
+                                android:textColor="@color/bill_back_color"
+                                android:textSize="10sp"
+                                android:textStyle="bold"/>
+                        </TableRow>
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_marginTop="3dip">
+                            <TextView
+                                android:id="@+id/lb_date"
+                                android:text="@string/date"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/accent_color"
+                                android:textSize="10sp"
+                                android:textStyle="bold"
+                                />
+
+                            <TextView
+                                android:id="@+id/txt_date"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="xxxxxx"
+                                android:layout_marginLeft="2dip"
+                                android:textColor="@color/bill_back_color"
+                                android:textSize="10sp"
+                                android:textStyle="bold"/>
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_marginTop="3dip">
+                            <TextView
+                                android:id="@+id/lb_speed"
+                                android:text="@string/speed"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/accent_color"
+                                android:textSize="10sp"
+                                android:textStyle="bold"
+                                />
+
+                            <TextView
+                                android:id="@+id/txt_speed"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="xxxxxx"
+                                android:layout_marginLeft="2dip"
+                                android:textColor="@color/bill_back_color"
+                                android:textSize="10sp"
+                                android:textStyle="bold"/>
+                        </TableRow>
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_marginTop="3dip">
+                            <TextView
+                                android:id="@+id/lb_routetype"
+                                android:text="@string/route_type"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/accent_color"
+                                android:textSize="10sp"
+                                android:textStyle="bold"
+                                />
+
+                            <TextView
+                                android:id="@+id/txt_type"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="xxxxxx"
+                                android:layout_marginLeft="2dip"
+                                android:textColor="@color/bill_back_color"
+                                android:textSize="10sp"
+                                android:textStyle="bold"/>
+                        </TableRow>
+                    </TableLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/txt_msg"
+            android:text="@string/no_records_available"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/accent_color"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/topLay"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:id="@+id/txt_shelter"
+            android:text="@string/shelter_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/accent_color"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/line"
+            android:layout_centerHorizontal="true" />
+        <View
+            android:id="@+id/line"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:visibility="gone"
+            android:background="@color/gray"
+            android:layout_below="@+id/txt_msg"/>
+    </RelativeLayout>
+
+</RelativeLayout>
