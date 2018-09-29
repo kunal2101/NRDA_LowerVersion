@@ -2,6 +2,7 @@ package com.nrda;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Toast;
 
 public class Main2Activity extends AppCompatActivity {
 
@@ -9,5 +10,10 @@ public class Main2Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
+        Toast.makeText(this, "khvjfsv", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "khvjfsv", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "khvjfsv", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "khvjfsv", Toast.LENGTH_SHORT).show();
+
     }
 }
